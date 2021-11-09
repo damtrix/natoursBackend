@@ -23,11 +23,13 @@
     "mongoose": "^5.13.9",
     "morgan": "^1.10.0",
     "nodemailer": "^6.7.0",
+    "pug": "^3.0.2",
     "slugify": "^1.6.0",
     "validator": "^13.6.0",
     "xss-clean": "^0.1.1"
   },
   "devDependencies": {
+    "@prettier/plugin-pug": "^1.17.1",
     "cross-env": "^7.0.3",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",

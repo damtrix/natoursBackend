@@ -22,6 +22,11 @@
     "no-unused-vars": [
       "error",
       { "argsIgnorePattern": "req|res|next|val|error" }
-    ]
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "sourceType": "module",
+      "allowImportExportEverywhere": true
+    }
   }
 }
